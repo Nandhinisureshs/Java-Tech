@@ -1,3 +1,4 @@
+package Arithmatic;
 public class Main{
     public static void main(String args[]){
         int a=5;
@@ -6,3 +7,4 @@ public class Main{
         System.out.println(c);
     }
 }
+
