@@ -15,6 +15,7 @@ class DeletionBST{
         root = null;
     }
 
+
     DBSNode insert(int data, DBSNode root){
         if(root == null){
             return new DBSNode(data);
@@ -65,6 +66,18 @@ class DeletionBST{
         }
         return root;
     }
+    boolean searching(int target, DBSNode root){
+        if(root == null)
+            return false;
+        if(root.data == target){
+            return true;
+        }
+        if(target < root.data)
+            return searching(target, root.left);
+        else
+            return searching(target, root.right);
+    }
+
 
         void preorder(DBSNode root){
             if(root == null){  // if thsi condition is not set then stack over
@@ -94,6 +107,7 @@ class DeletionBST{
     }
 
 }
+
 
 public class DeletionInBST {
     public static void main(String[] args) {
