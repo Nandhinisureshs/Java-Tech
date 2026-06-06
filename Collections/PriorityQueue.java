@@ -12,7 +12,7 @@ public class PriorityQueue {
         int num = pq.element();//poll element dlt agum ,value venum nah element ah use panni get pannikalam
         System.out.println(num);
 
-        System.out.println(pq.toString());
+        System.out.println(pq);
 
 
         // System.out.println(pq.poll());
