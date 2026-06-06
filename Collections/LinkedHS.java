@@ -13,7 +13,7 @@ public class LinkedHS {
 
         System.out.println(movies);
 
-        TreeSet<String> games = new TreeSet();
+        TreeSet<String> games = new TreeSet<String>();
         //sorted order
         games.add("Free fire");
         games.add("God of war");
